@@ -23,15 +23,15 @@ function App() {
 
   return (
     <div className="App relative">
-      <div className="pointer-events-none fixed inset-0 -z-10 bg-blob dark:bg-blob-dark" />
-      <div className="pointer-events-none fixed inset-0 -z-10 bg-gradient-to-b from-white/40 via-transparent to-white/20 dark:from-black/30 dark:to-black/40" />
+      <div className="pointer-events-none fixed inset-0 -z-10 bg-grid dark:bg-grid-dark" />
+      <div className="pointer-events-none fixed inset-0 -z-10 bg-radial-spotlight dark:bg-radial-spotlight-dark" />
 
       <Navbar profile={profile} theme={theme} onToggleTheme={toggle} />
 
       {loading ? (
         <Loader name={profile.name} />
       ) : (
-        <main>
+        <main className="lg:pl-72">
           <Hero profile={profile} />
           <About profile={profile} />
           <Skills profile={profile} />

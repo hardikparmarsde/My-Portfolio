@@ -50,31 +50,6 @@ export function Contact({ profile }) {
             </div>
           </Reveal>
 
-          <Reveal delay={0.05} className="lg:col-span-5">
-            <div className="glass rounded-2xl p-5 sm:p-6">
-              <div className="text-sm font-semibold text-ink-900 dark:text-white">Location</div>
-              <p className="mt-2 text-sm leading-7 text-ink-700 dark:text-white/70">{profile.location}</p>
-              <div className="mt-6 text-sm font-semibold text-ink-900 dark:text-white">Links</div>
-              <div className="mt-3 grid gap-2">
-                <a
-                  className="glass rounded-xl p-4 text-sm text-ink-700 hover:text-ink-900 dark:text-white/70 dark:hover:text-white transition"
-                  href={profile.links.linkedin}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {profile.links.linkedin}
-                </a>
-                <a
-                  className="glass rounded-xl p-4 text-sm text-ink-700 hover:text-ink-900 dark:text-white/70 dark:hover:text-white transition"
-                  href={profile.links.github}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {profile.links.github}
-                </a>
-              </div>
-            </div>
-          </Reveal>
         </div>
       </div>
     </section>

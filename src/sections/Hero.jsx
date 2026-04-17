@@ -3,6 +3,9 @@ import { FiArrowRight, FiMail, FiMapPin } from 'react-icons/fi';
 import { Reveal } from '../components/Reveal';
 
 export function Hero({ profile }) {
+  const about = profile.about;
+  const intro = about?.tagline || profile.summary?.[0];
+
   return (
     <section id="top" className="relative pt-28 sm:pt-32">
       <div className="container-page">
@@ -20,11 +23,11 @@ export function Hero({ profile }) {
               <p className="mt-2 text-lg font-semibold text-ink-700 dark:text-white/70">{profile.title}</p>
             </Reveal>
 
-            <Reveal delay={0.12}>
-              <p className="mt-6 max-w-2xl text-sm leading-7 text-ink-700 dark:text-white/70">
-                {profile.summary.join(' ')}
-              </p>
-            </Reveal>
+            {intro ? (
+              <Reveal delay={0.1}>
+                <p className="mt-4 max-w-2xl text-sm leading-7 text-ink-700 dark:text-white/70">{intro}</p>
+              </Reveal>
+            ) : null}
 
             <Reveal delay={0.16}>
               <div className="mt-8 flex flex-wrap gap-3">
@@ -70,7 +73,7 @@ export function Hero({ profile }) {
                     Email
                   </div>
                   <a
-                    className="mt-1 inline-block text-sm text-ink-700 hover:text-ink-900 dark:text-white/70 dark:hover:text-white transition"
+                    className="mt-1 inline-block text-sm text-ink-700 hover:text-ink-900 dark:text-white/70 dark:hover:text-white transition"                    
                     href={`mailto:${profile.email}`}
                   >
                     {profile.email}

@@ -11,13 +11,43 @@ export const profile = {
   summary: [
     'Frontend Developer with experience building modern, responsive web applications using React.js, Next.js, Tailwind CSS, and Material UI.',
     'Worked closely with backend teams and delivered real-time features using Node.js, MQTT, and Socket.IO.',
+    'Built SEO pages using Next.js and implemented payment flows using Careem Pay.',
   ],
+  about: {
+    // tagline: 'Building fast, clean, and real-time web experiences.',
+    paragraphs: [
+      'Frontend Developer focused on building modern, responsive web applications with React.js and Next.js, using Tailwind CSS and Material UI for clean, consistent UI systems.',
+      'I collaborate closely with backend teams to deliver real-time experiences using Node.js, MQTT, and Socket.IO—shipping dashboards that reflect live device/telemetry data and keeping UIs performant under frequent updates.',
+      'I’ve also worked on CCTV camera configuration modules for live streaming workflows, built SEO-friendly pages in Next.js, and implemented payment flows using Careem Pay.',
+      'In internal tooling, I built a device borrow/return app using QR codes to replace manual paper-based entries—making the process faster and more traceable.',
+    ],
+    focusAreas: [
+      {
+        title: 'Web app development',
+        description: 'Responsive UI, routing, state management, and reusable component systems.',
+      },
+      {
+        title: 'Real-time systems',
+        description: 'MQTT + Socket.IO driven screens that update reliably with live data.',
+      },
+      {
+        title: 'Internal tools',
+        description: 'Process automation like QR-based device borrowing/returns to replace manual workflows.',
+      },
+    ],
+    stats: [
+      { value: '2+', label: 'Years experience' },
+      { value: '10+', label: 'Projects shipped' },
+      { value: '3+', label: 'Domains' },
+    ],
+  },
   skills: [
     {
       category: 'Frontend',
       items: [
         'React.js',
         'Next.js',
+        'Angular',
         'JavaScript',
         'Redux',
         'HTML',
@@ -34,7 +64,7 @@ export const profile = {
     },
     {
       category: 'Data & CS',
-      items: ['MongoDB', 'Data Structures', 'Java'],
+      items: ['MongoDB'],
     },
     {
       category: 'Desktop',
@@ -45,9 +75,8 @@ export const profile = {
     {
       role: 'Software Development Engineer',
       company: 'Rapidise inc',
-      period: '08/2023 - 02/2025',
+      period: '08/2023 - Present',
       bullets: [
-        'Completed a 6-month internship followed by 1 year of full-time employment.',
         'Developed modern, responsive web applications using React.js, Next.js, Tailwind CSS, and Material UI.',
         'Collaborated with backend teams and integrated real-time features using Node.js, MQTT, and Socket.IO.',
       ],
@@ -81,7 +110,7 @@ export const profile = {
       score: '8.13 CGPA',
     },
   ],
-  projects: [
+  projects: [    
     {
       title: 'Pocket Notes',
       description:

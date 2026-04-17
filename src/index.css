@@ -44,16 +44,30 @@
 }
 
 @layer utilities {
-  .bg-blob {
-    background:
-      radial-gradient(700px 500px at 15% 10%, rgba(106, 119, 200, 0.28), transparent 55%),
-      radial-gradient(650px 450px at 75% 25%, rgba(141, 154, 215, 0.24), transparent 55%),
-      radial-gradient(750px 520px at 45% 85%, rgba(80, 90, 178, 0.22), transparent 55%);
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, rgba(27, 29, 52, 0.06) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(27, 29, 52, 0.06) 1px, transparent 1px);
+    background-size: 48px 48px;
+    background-position: center;
   }
-  .bg-blob-dark {
+  .bg-grid-dark {
+    background-image:
+      linear-gradient(to right, rgba(246, 247, 251, 0.06) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(246, 247, 251, 0.06) 1px, transparent 1px);
+    background-size: 48px 48px;
+    background-position: center;
+  }
+  .bg-radial-spotlight {
     background:
-      radial-gradient(700px 520px at 20% 15%, rgba(106, 119, 200, 0.22), transparent 58%),
-      radial-gradient(650px 500px at 85% 25%, rgba(80, 90, 178, 0.20), transparent 60%),
-      radial-gradient(780px 560px at 50% 90%, rgba(181, 190, 230, 0.10), transparent 60%);
+      radial-gradient(900px 650px at 20% 10%, rgba(106, 119, 200, 0.22), transparent 55%),
+      radial-gradient(900px 650px at 80% 30%, rgba(141, 154, 215, 0.18), transparent 55%),
+      radial-gradient(900px 650px at 50% 90%, rgba(80, 90, 178, 0.16), transparent 60%);
+  }
+  .bg-radial-spotlight-dark {
+    background:
+      radial-gradient(900px 650px at 20% 12%, rgba(106, 119, 200, 0.18), transparent 60%),
+      radial-gradient(900px 650px at 85% 25%, rgba(80, 90, 178, 0.16), transparent 60%),
+      radial-gradient(900px 650px at 55% 92%, rgba(181, 190, 230, 0.08), transparent 65%);
   }
 }
