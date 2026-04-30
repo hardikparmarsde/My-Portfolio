@@ -117,7 +117,7 @@ export const profile = {
         'A notes app with group-based organization, color-coded groups, and an end-to-end encrypted notes experience.',
       tech: ['React.js', 'JavaScript', 'CSS'],
       links: {
-        live: 'https://react-notes-app-beta-henna.vercel.app/',
+        live: 'https://react-notes-app-eta-henna.vercel.app/',
       },
       images: ['/projects/pocket-notes-1.png', '/projects/pocket-notes-2.png', '/projects/pocket-notes-3.png'],
     },
