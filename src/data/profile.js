@@ -9,88 +9,118 @@ export const profile = {
     github: 'https://github.com/hardikparmarsde',
   },
   summary: [
-    'Frontend Developer with experience building modern, responsive web applications using React.js, Next.js, Tailwind CSS, and Material UI.',
-    'Worked closely with backend teams and delivered real-time features using Node.js, MQTT, and Socket.IO.',
-    'Built SEO pages using Next.js and implemented payment flows using Careem Pay.',
+    'Frontend Developer with 3+ years of experience building scalable React.js and Next.js applications.',
+    'Experienced in real-time monitoring systems, camera and NVR management platforms, REST API integration, MQTT, WebSockets, and modern frontend architecture.',
+    'Skilled in TypeScript, Redux Toolkit, Zustand, TanStack Query, React Hook Form, Material UI, Tailwind CSS, and Electron.js.',
   ],
+
   about: {
-    // tagline: 'Building fast, clean, and real-time web experiences.',
     paragraphs: [
-      'Frontend Developer focused on building modern, responsive web applications with React.js and Next.js, using Tailwind CSS and Material UI for clean, consistent UI systems.',
-      'I collaborate closely with backend teams to deliver real-time experiences using Node.js, MQTT, and Socket.IO—shipping dashboards that reflect live device/telemetry data and keeping UIs performant under frequent updates.',
-      'I’ve also worked on CCTV camera configuration modules for live streaming workflows, built SEO-friendly pages in Next.js, and implemented payment flows using Careem Pay.',
-      'In internal tooling, I built a device borrow/return app using QR codes to replace manual paper-based entries—making the process faster and more traceable.',
+      'Frontend Developer with 3+ years of experience building scalable web applications using React.js, Next.js, JavaScript, and modern frontend technologies.',
+      'Currently working as a Software Development Engineer at Rapidise, developing camera and NVR management platforms, real-time monitoring systems, and device configuration applications.',
+      'Experienced in building reusable component architectures, integrating REST APIs, implementing MQTT/WebSocket-based communication, and developing responsive user interfaces using Material UI, Tailwind CSS, Ant Design, and React Hook Form.',
+      'I have also contributed to Electron.js desktop applications, Linux and ARM64-based deployments, and full-stack personal projects focused on performance, scalability, and user experience.',
     ],
+
     focusAreas: [
       {
-        title: 'Web app development',
-        description: 'Responsive UI, routing, state management, and reusable component systems.',
+        title: 'Frontend Engineering',
+        description: 'Building scalable React.js and Next.js applications with reusable component architectures and modern UI frameworks.',
       },
       {
-        title: 'Real-time systems',
-        description: 'MQTT + Socket.IO driven screens that update reliably with live data.',
+        title: 'Real-Time Applications',
+        description: 'Implementing MQTT, Socket.IO, and WebSocket-driven experiences for monitoring and device management platforms.',
       },
       {
-        title: 'Internal tools',
-        description: 'Process automation like QR-based device borrowing/returns to replace manual workflows.',
+        title: 'Cross-Platform Development',
+        description: 'Working with Electron.js, Linux, and ARM64 environments to deliver reliable desktop and web solutions.',
       },
     ],
+
     stats: [
-      { value: '2+', label: 'Years experience' },
-      { value: '10+', label: 'Projects shipped' },
-      { value: '3+', label: 'Domains' },
+      { value: '3+', label: 'Years Experience' },
+      { value: '15+', label: 'Production Modules' },
+      { value: '10+', label: 'Projects Delivered' },
     ],
   },
+
   skills: [
     {
       category: 'Frontend',
       items: [
         'React.js',
         'Next.js',
-        'Angular',
         'JavaScript',
-        'Redux',
-        'HTML',
-        'CSS',
+        'TypeScript',
+        'HTML5',
+        'CSS3',
         'Tailwind CSS',
         'Material UI',
         'Ant Design',
-        'Bootstrap',
+        'Shadcn UI',
       ],
     },
     {
+      category: 'State Management',
+      items: ['Redux Toolkit', 'Zustand', 'Context API'],
+    },
+    {
+      category: 'Forms & Validation',
+      items: ['React Hook Form', 'Yup', 'Zod'],
+    },
+    {
+      category: 'Data Fetching',
+      items: ['TanStack Query', 'Axios'],
+    },
+    {
       category: 'Backend & Realtime',
-      items: ['Node.js', 'Socket.IO', 'MQTT', 'JWT', 'Express'],
+      items: [
+        'Node.js',
+        'Express.js',
+        'MongoDB',
+        'JWT',
+        'MQTT',
+        'Socket.IO',
+        'WebSockets',
+      ],
     },
     {
-      category: 'Data & CS',
-      items: ['MongoDB'],
-    },
-    {
-      category: 'Desktop',
-      items: ['Electron.js'],
+      category: 'Tools & Platforms',
+      items: [
+        'Git',
+        'GitHub',
+        'GitLab',
+        'Postman',
+        'Linux',
+        'MQTT Explorer',
+        'Electron.js',
+        'Amazon S3',
+      ],
     },
   ],
   experience: [
     {
       role: 'Software Development Engineer',
-      company: 'Rapidise inc',
+      company: 'Rapidise Inc.',
       period: '08/2023 - Present',
       bullets: [
-        'Developed modern, responsive web applications using React.js, Next.js, Tailwind CSS, and Material UI.',
-        'Collaborated with backend teams and integrated real-time features using Node.js, MQTT, and Socket.IO.',
+        'Developed and maintained 15+ production modules for camera and NVR management platforms using React.js and Next.js.',
+        'Built responsive and reusable user interfaces using Material UI, Ant Design, Tailwind CSS, Shadcn UI, and React Hook Form.',
+        'Developed device configuration, storage scheduling, event management, monitoring, and administration modules.',
+        'Implemented real-time communication and monitoring workflows using MQTT, Socket.IO, and WebSockets.',
+        'Integrated REST APIs and collaborated closely with backend teams to deliver production-ready features.',
+        'Contributed to Electron.js desktop applications and cross-platform deployment workflows.',
+        'Worked with Linux and ARM64-based environments to support application deployment, testing, and compatibility requirements.',
       ],
     },
     {
       role: 'Frontend Developer',
-      company: 'Zignuts Technololab',
+      company: 'Zignuts Technolab',
       period: '01/2022 - 05/2023',
       bullets: [
-        'Worked on both frontend and backend part of the project.',
-        'Designed landing page for the project.',
-        'Built SEO pages using Next.js to improve website reach on search engines.',
-        'Worked on payments of the project with Careem Pay (a Saudi Arabian payment gateway).',
-        'Worked primarily on Next.js to provide frontend solutions.',
+        'Developed and maintained React.js and Next.js pages for a car maintenance and repair booking platform.',
+        'Built responsive landing pages and implemented client-requested UI updates.',
+        'Integrated backend APIs and supported booking-related workflows.',
       ],
     },
   ],
@@ -110,7 +140,7 @@ export const profile = {
       score: '8.13 CGPA',
     },
   ],
-  projects: [    
+  projects: [
     {
       title: 'Pocket Notes',
       description:
