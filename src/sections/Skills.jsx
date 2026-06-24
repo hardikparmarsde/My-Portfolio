@@ -86,21 +86,22 @@ export function Skills({ profile }) {
                 return (
                   <div
                     key={skill}
-                    className="group glass rounded-2xl p-3 grid place-items-center hover:-translate-y-0.5 hover:bg-white/80 dark:hover:bg-white/10 transition"
+                    className="group glass rounded-2xl p-3 flex flex-col items-center justify-center gap-2 hover:-translate-y-0.5 hover:bg-white/80 dark:hover:bg-white/10 transition"
                     title={skill}
                     aria-label={skill}
                   >
-                    {Icon ? (
+                    {Icon && (
                       <Icon
-                        className="h-7 w-7"
+                        className="h-7 w-7 sm:h-8 sm:w-8"
                         style={{
                           color: color || undefined,
                           filter: 'drop-shadow(0 8px 18px rgba(0,0,0,0.12))',
                         }}
                       />
-                    ) : (
-                      <span className="text-[10px] font-semibold text-ink-800 dark:text-white/80">{skill}</span>
                     )}
+                    <span className="text-[10px] sm:text-xs font-semibold text-ink-800 dark:text-white/80 text-center">
+                      {skill}
+                    </span>
                   </div>
                 );
               })}
