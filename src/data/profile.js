@@ -142,6 +142,35 @@ export const profile = {
   ],
   projects: [
     {
+      title: 'RepoCrawler — AI Contributor Onboarding for GitHub',
+      description:
+        'An open-source AI tool that turns any GitHub repo into a personalised contributor onboarding plan in under a minute. Fans out to GitHub for issues, PRs, CONTRIBUTING, and maintainer activity, then uses Gemini / Claude via a provider-agnostic LLM layer to score issues by skill match, generate a codebase map with difficulty tags, extract project conventions, and recommend a "first PR" tailored to the user\'s skill profile. Ships with streaming server actions, a user-weighted match-scoring algorithm, and a nightly eval harness that benchmarks precision@3 against a 10-repo gold set.',
+      tech: [
+        'Next.js 16',
+        'React 19',
+        'TypeScript',
+        'Tailwind CSS',
+        'NextAuth.js v5',
+        'Drizzle ORM',
+        'PostgreSQL (pgvector)',
+        'Server Actions',
+        'Gemini API',
+        'Claude API',
+        'GitHub API (Octokit)',
+        'Playwright',
+        'GitHub Actions',
+      ],
+      links: {
+        source: 'https://github.com/hardikparmarsde/repocrawler',
+      },
+      images: [
+        '/projects/repocrawler-1.png',
+        '/projects/repocrawler-2.png',
+        '/projects/repocrawler-3.png',
+        '/projects/repocrawler-4.png',
+      ],
+    },
+    {
       title: 'Pocket Notes',
       description:
         'A notes app with group-based organization, color-coded groups, and an end-to-end encrypted notes experience.',
