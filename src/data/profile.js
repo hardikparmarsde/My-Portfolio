@@ -1,6 +1,6 @@
 export const profile = {
   name: 'Hardik Parmar',
-  title: 'Frontend Developer',
+  title: 'Frontend Engineer',
   location: 'Gandhinagar, Gujarat',
   email: 'hardikparmar7001@gmail.com',
   phone: '8347937087',
@@ -9,31 +9,34 @@ export const profile = {
     github: 'https://github.com/hardikparmarsde',
   },
   summary: [
-    'Frontend Developer with 3+ years of experience building scalable React.js and Next.js applications.',
-    'Experienced in real-time monitoring systems, camera and NVR management platforms, REST API integration, MQTT, WebSockets, and modern frontend architecture.',
-    'Skilled in TypeScript, Redux Toolkit, Zustand, TanStack Query, React Hook Form, Material UI, Tailwind CSS, and Electron.js.',
+    'Frontend Engineer with 3+ years of experience delivering enterprise SaaS in React.js and Next.js — dashboards, role-based access control, billing, data-heavy tables, and real-time monitoring UIs.',
+    'Comfortable across the stack: Node.js / Express / MongoDB on the backend, Electron for cross-platform desktop, and MQTT / Socket.IO for real-time device control.',
+    'Currently exploring AI-first product UI — shipped RepoCrawler, an open-source AI contributor-onboarding tool for GitHub repositories, in production.',
   ],
 
   about: {
     paragraphs: [
-      'Frontend Developer with 3+ years of experience building scalable web applications using React.js, Next.js, JavaScript, and modern frontend technologies.',
-      'Currently working as a Software Development Engineer at Rapidise, developing camera and NVR management platforms, real-time monitoring systems, and device configuration applications.',
-      'Experienced in building reusable component architectures, integrating REST APIs, implementing MQTT/WebSocket-based communication, and developing responsive user interfaces using Material UI, Tailwind CSS, Ant Design, and React Hook Form.',
-      'I have also contributed to Electron.js desktop applications, Linux and ARM64-based deployments, and full-stack personal projects focused on performance, scalability, and user experience.',
+      'Frontend Engineer with 3+ years at Rapidise Inc., owning frontend delivery of 15+ production modules on a globally-deployed enterprise SaaS surveillance platform — dashboards, device configuration, billing, role-based access control, and live video.',
+      'My core stack is React.js, Next.js, and TypeScript, with Redux Toolkit, TanStack Query, React Hook Form, Material UI, Tailwind CSS, and React Flow. I translate Figma designs into pixel-perfect production UIs and think carefully about loading, empty, error, and streaming states.',
+      'I also contribute backend when the feature needs it — REST endpoints in Node.js / Express, MongoDB query optimization, JWT / RBAC middleware, and Puppeteer-based PDF pipelines. I built and ship a cross-platform Electron desktop app (Windows / macOS / Linux) for wellness-pod audio control.',
+      'Outside the day job, I am building RepoCrawler — an open-source AI tool that generates personalised contributor onboarding plans for any GitHub repository. It is where I iterate on AI-UI patterns: streaming responses, cited outputs, confidence states, and cost-controlled LLM pipelines.',
     ],
 
     focusAreas: [
       {
-        title: 'Frontend Engineering',
-        description: 'Building scalable React.js and Next.js applications with reusable component architectures and modern UI frameworks.',
+        title: 'Frontend Engineering at Scale',
+        description:
+          'Shipping React.js and Next.js applications with reusable component architectures, design-system discipline, and pixel-accurate Figma translation.',
       },
       {
-        title: 'Real-Time Applications',
-        description: 'Implementing MQTT, Socket.IO, and WebSocket-driven experiences for monitoring and device management platforms.',
+        title: 'AI-First Product UI',
+        description:
+          'Designing interfaces for AI output — citations, confidence states, "no match" handling, and streaming responses — with provider-agnostic LLM pipelines (Claude / Gemini).',
       },
       {
-        title: 'Cross-Platform Development',
-        description: 'Working with Electron.js, Linux, and ARM64 environments to deliver reliable desktop and web solutions.',
+        title: 'Real-Time & Cross-Platform',
+        description:
+          'MQTT, Socket.IO, and WebSocket-driven monitoring UIs; Electron desktop apps built for Windows / macOS / Linux with offline support.',
       },
     ],
 
@@ -70,7 +73,7 @@ export const profile = {
     },
     {
       category: 'Data Fetching',
-      items: ['TanStack Query', 'Axios'],
+      items: ['TanStack Query', 'Axios', 'React Query'],
     },
     {
       category: 'Backend & Realtime',
@@ -82,19 +85,44 @@ export const profile = {
         'MQTT',
         'Socket.IO',
         'WebSockets',
+        'REST APIs',
       ],
     },
     {
-      category: 'Tools & Platforms',
+      category: 'AI / LLM',
+      items: [
+        'Claude API',
+        'Gemini API',
+        'Prompt Caching',
+        'RAG patterns',
+        'Model Routing',
+        'Drizzle ORM',
+        'PostgreSQL (pgvector)',
+      ],
+    },
+    {
+      category: 'Desktop & Document',
+      items: [
+        'Electron.js',
+        'electron-vite',
+        'electron-builder',
+        'Puppeteer',
+        'Chrome-headless',
+        'SheetJS',
+      ],
+    },
+    {
+      category: 'Tools & Workflow',
       items: [
         'Git',
         'GitHub',
         'GitLab',
         'Postman',
+        'Figma',
+        'Jira',
+        'Agile / Scrum',
         'Linux',
-        'MQTT Explorer',
-        'Electron.js',
-        'Amazon S3',
+        'Vercel',
       ],
     },
   ],
@@ -104,23 +132,25 @@ export const profile = {
       company: 'Rapidise Inc.',
       period: '08/2023 - Present',
       bullets: [
-        'Developed and maintained 15+ production modules for camera and NVR management platforms using React.js and Next.js.',
-        'Built responsive and reusable user interfaces using Material UI, Ant Design, Tailwind CSS, Shadcn UI, and React Hook Form.',
-        'Developed device configuration, storage scheduling, event management, monitoring, and administration modules.',
-        'Implemented real-time communication and monitoring workflows using MQTT, Socket.IO, and WebSockets.',
-        'Integrated REST APIs and collaborated closely with backend teams to deliver production-ready features.',
-        'Contributed to Electron.js desktop applications and cross-platform deployment workflows.',
-        'Worked with Linux and ARM64-based environments to support application deployment, testing, and compatibility requirements.',
+        'Owned frontend delivery of 15+ production modules on a globally-deployed enterprise SaaS platform — dashboards, sites & users management, billing with plan-based tiers, notifications, role-based access control & multi-tier permission groups, live video viewer, and device configuration — translating Figma designs into pixel-perfect production UIs (React.js, Next.js, Redux Toolkit, Material UI).',
+        'Built real-time dashboards with live-updating charts, KPI cards, filterable admin tables, and multi-step flows for customer, site, storage, and billing views.',
+        'Built a visual drag-and-drop automation designer for configuring on-device rules, schedules, and audio-message triggers.',
+        'Delivered configuration UI for a globally-deployed surveillance platform — AI event pipelines (face detection, LPR, perimeter detection), real-time video streaming, device maintenance, and live playback with timeline scrubbing — integrating complex network configurations (IPv4 / IPv6, DDNS, streaming protocols).',
+        'Contributed backend: REST API endpoints (Node.js / Express), MongoDB query optimization, and JWT / RBAC middleware on a production multi-tenant SaaS platform.',
+        'Built an automated document generation pipeline using Puppeteer and Chrome-headless rendering — multi-section PDF reports from dynamic HTML templates, reducing turnaround from hours to seconds.',
+        'Engineered an xlsx report generator (SheetJS) for operational readiness matrices, automating data aggregation and formatting across multiple modules.',
+        'Building a cross-platform Electron + React desktop app (Windows / macOS / Linux) for wellness-pod operators to control on-device audio hardware — playlists, playback, volume, and audio output switching — with offline support and signed installers for all three OSes.',
+        'Contributed to a real-time IoT platform integrating MQTT, Socket.IO, and WebSockets for live device control, telemetry, and remote configuration.',
       ],
     },
     {
       role: 'Frontend Developer',
       company: 'Zignuts Technolab',
-      period: '01/2022 - 05/2023',
+      period: '12/2022 - 05/2023',
       bullets: [
-        'Developed and maintained React.js and Next.js pages for a car maintenance and repair booking platform.',
-        'Built responsive landing pages and implemented client-requested UI updates.',
-        'Integrated backend APIs and supported booking-related workflows.',
+        'Delivered the customer booking flow and partner-garage dashboard for a Dubai-based premium car maintenance platform (Next.js, Ant Design).',
+        'Built mobile-responsive UI with dedicated focus on iOS / Safari for a mobile-first user base, and integrated the Careem Pay payment gateway into the checkout flow.',
+        'Translated Figma designs into production UI in close collaboration with designers and backend engineers to hit tight release deadlines.',
       ],
     },
   ],
@@ -144,7 +174,7 @@ export const profile = {
     {
       title: 'RepoCrawler — AI Contributor Onboarding for GitHub',
       description:
-        'An open-source AI tool that turns any GitHub repo into a personalised contributor onboarding plan in under a minute. Fans out to GitHub for issues, PRs, CONTRIBUTING, and maintainer activity, then uses Gemini / Claude via a provider-agnostic LLM layer to score issues by skill match, generate a codebase map with difficulty tags, extract project conventions, and recommend a "first PR" tailored to the user\'s skill profile. Ships with streaming server actions, a user-weighted match-scoring algorithm, and a nightly eval harness that benchmarks precision@3 against a 10-repo gold set.',
+        'An open-source AI tool that turns any GitHub repo into a personalised contributor onboarding plan in under a minute. Fans out to GitHub for issues, PRs, CONTRIBUTING, and maintainer activity, then uses Gemini / Claude via a provider-agnostic LLM layer to score issues by skill match, generate a codebase map with difficulty tags, extract project conventions, and recommend a "first PR" tailored to the user\'s skill profile. Ships with streaming server actions, a user-weighted match-scoring algorithm, per-user daily rate limits, and a nightly eval harness that benchmarks precision@3 against a 10-repo gold set.',
       tech: [
         'Next.js 16',
         'React 19',
@@ -174,8 +204,8 @@ export const profile = {
     {
       title: 'LinkSphere — Social Media App',
       description:
-        'A full-stack social media app with authentication, a posts feed, image uploads, and light/dark theme support.',
-      tech: ['React.js', 'Redux', 'Tailwind CSS', 'Express', 'JWT', 'MongoDB'],
+        'A full-stack social media app with JWT authentication, post feed with image uploads, encrypted persistence, and light / dark theme support. Backend is an Express + MongoDB API with rate-limited endpoints and Cloudinary-backed media storage.',
+      tech: ['React.js', 'Redux Toolkit', 'Tailwind CSS', 'Express', 'JWT', 'MongoDB', 'Cloudinary'],
       links: {
         live: 'https://social-media-app-ochre-gamma.vercel.app/',
         source: 'https://github.com/hardikparmarsde/social-media-app',
@@ -185,4 +215,3 @@ export const profile = {
     },
   ],
 };
-
