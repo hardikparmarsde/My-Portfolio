@@ -161,6 +161,7 @@ export const profile = {
         'GitHub Actions',
       ],
       links: {
+        live: 'https://repocrawler.vercel.app',
         source: 'https://github.com/hardikparmarsde/repocrawler',
       },
       images: [
@@ -168,29 +169,6 @@ export const profile = {
         '/projects/repocrawler-2.png',
         '/projects/repocrawler-3.png',
         '/projects/repocrawler-4.png',
-      ],
-    },
-    {
-      title: 'Pocket Notes',
-      description:
-        'A notes app with group-based organization, color-coded groups, and an end-to-end encrypted notes experience.',
-      tech: ['React.js', 'JavaScript', 'CSS'],
-      links: {
-        live: 'https://react-notes-app-eta-henna.vercel.app/',
-      },
-      images: ['/projects/pocket-notes-1.png', '/projects/pocket-notes-2.png', '/projects/pocket-notes-3.png'],
-    },
-    {
-      title: 'Rock Paper Scissors',
-      description: 'A Rock–Paper–Scissors web game with score tracking and a clean, playful UI.',
-      tech: ['HTML', 'CSS', 'JavaScript'],
-      links: {
-        live: 'https://hardikparmarsde.github.io/rock-paper-scissors/',
-      },
-      images: [
-        '/projects/rock-paper-scissors-1.png',
-        '/projects/rock-paper-scissors-2.png',
-        '/projects/rock-paper-scissors-3.png',
       ],
     },
     {
